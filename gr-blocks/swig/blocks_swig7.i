@@ -36,6 +36,7 @@
 #include "gnuradio/blocks/exponentiate_const_cci.h"
 #include "gnuradio/blocks/selector.h"
 #include "gnuradio/blocks/skiphead.h"
+#include "gnuradio/blocks/stream_demux.h"
 #include "gnuradio/blocks/stream_mux.h"
 #include "gnuradio/blocks/stream_to_streams.h"
 #include "gnuradio/blocks/stream_to_tagged_stream.h"
@@ -53,6 +54,7 @@
 %include "gnuradio/blocks/exponentiate_const_cci.h"
 %include "gnuradio/blocks/selector.h"
 %include "gnuradio/blocks/skiphead.h"
+%include "gnuradio/blocks/stream_demux.h"
 %include "gnuradio/blocks/stream_mux.h"
 %include "gnuradio/blocks/stream_to_streams.h"
 %include "gnuradio/blocks/stream_to_tagged_stream.h"
@@ -72,6 +74,7 @@ GR_SWIG_BLOCK_MAGIC2_TMPL(blocks, divide_cc, divide<gr_complex>);
 GR_SWIG_BLOCK_MAGIC2(blocks, exponentiate_const_cci);
 GR_SWIG_BLOCK_MAGIC2(blocks, selector);
 GR_SWIG_BLOCK_MAGIC2(blocks, skiphead);
+GR_SWIG_BLOCK_MAGIC2(blocks, stream_demux);
 GR_SWIG_BLOCK_MAGIC2(blocks, stream_mux);
 GR_SWIG_BLOCK_MAGIC2(blocks, stream_to_streams);
 GR_SWIG_BLOCK_MAGIC2(blocks, stream_to_tagged_stream);
